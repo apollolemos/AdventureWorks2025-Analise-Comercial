@@ -13,5 +13,5 @@ on detail.SalesOrderID = header.SalesOrderID
 LEFT JOIN sales.SalesTerritory as territory
 on header.TerritoryID = territory.TerritoryID
 
-Group by territory.TerritoryID, Territory.Name, Territory.CountryRegionCode
+Group by territory.TerritoryID, Territory.Name
 Order by SUM(detail.linetotal) desc
