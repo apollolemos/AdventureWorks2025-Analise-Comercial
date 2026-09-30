@@ -115,27 +115,27 @@ A análise territorial é descritiva: as diferenças observadas indicam padrões
 
 ## Dashboard
 
-O dashboard foi desenvolvido no Power BI e está organizado em três páginas:
+O dashboard foi desenvolvido no Power BI e está dividido em três páginas:
 
-**1. Visão Geral**
+### 1. Visão Geral
 
-* KPIs de receita, pedidos, clientes e ticket médio;
-* evolução mensal da receita;
-* evolução mensal dos pedidos;
-* receita por território;
-* receita por categoria.
+Apresenta os principais indicadores comerciais, a evolução mensal da receita e dos pedidos, além da distribuição da receita por território e categoria.
 
-**2. Clientes e Produtos**
+![Visão Geral](Imagens/01_visao_geral.png)
 
-* ranking dos principais clientes por receita;
-* comparação entre os 50 maiores clientes e os demais;
-* ranking dos principais produtos por receita.
+### 2. Clientes e Produtos
 
-**3. Territórios**
+Apresenta a concentração de receita entre clientes, a comparação entre os Top 50 clientes e os demais, além dos principais produtos por receita.
 
-* ticket médio por território;
-* quantidade de pedidos por território;
-* receita por cliente por território.
+![Clientes e Produtos](Imagens/02_clientes_produtos.png)
+
+### 3. Territórios
+
+Apresenta a distribuição dos pedidos, o ticket médio e a receita por cliente entre os diferentes territórios.
+
+![Territórios](Imagens/03_territorios.png)
+
+O arquivo `.pbix` utilizado na construção do dashboard está disponível na pasta `PowerBI/`.
 
 ## Ferramentas utilizadas
 
