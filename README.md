@@ -107,7 +107,7 @@ Entre os produtos, alguns modelos de bicicletas apresentaram participação sign
 
 ### Territórios
 
-Os três territórios com maior receita — **Southwest, Canada e Northwest** — concentraram aproximadamente **51,55% da receita total**.
+Os três territórios com maior receita (**Southwest, Canada e Northwest**) concentraram aproximadamente **51,55% da receita total**.
 
 Também foram observadas diferenças expressivas no ticket médio entre os territórios. Central, Northeast e Southeast apresentaram tickets médios significativamente superiores aos territórios com maior volume de pedidos, indicando que receita e volume de pedidos não apresentam necessariamente a mesma distribuição geográfica.
 
@@ -139,11 +139,11 @@ O dashboard foi desenvolvido no Power BI e está organizado em três páginas:
 
 ## Ferramentas utilizadas
 
-* **SQL Server / SSMS** — exploração, tratamento e análise dos dados.
-* **SQL** — consultas, agregações, relacionamentos, métricas e investigação dos dados.
-* **Power BI** — modelagem, criação de medidas em DAX e desenvolvimento do dashboard.
-* **DAX** — criação das métricas utilizadas na análise e nos visuais.
-* **GitHub** — documentação e versionamento do projeto.
+* **SQL Server / SSMS**: exploração, tratamento e análise dos dados.
+* **SQL**: consultas, agregações, relacionamentos, métricas e investigação dos dados.
+* **Power BI**: modelagem, criação de medidas em DAX e desenvolvimento do dashboard.
+* **DAX**: criação das métricas utilizadas na análise e nos visuais.
+* **GitHub**: documentação e versionamento do projeto.
 
 ## Estrutura do projeto
 
