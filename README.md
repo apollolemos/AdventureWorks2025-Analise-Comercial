@@ -112,3 +112,64 @@ Os três territórios com maior receita — **Southwest, Canada e Northwest** �
 Também foram observadas diferenças expressivas no ticket médio entre os territórios. Central, Northeast e Southeast apresentaram tickets médios significativamente superiores aos territórios com maior volume de pedidos, indicando que receita e volume de pedidos não apresentam necessariamente a mesma distribuição geográfica.
 
 A análise territorial é descritiva: as diferenças observadas indicam padrões que podem ser investigados posteriormente, mas não permitem, isoladamente, determinar suas causas.
+
+## Dashboard
+
+O dashboard foi desenvolvido no Power BI e está organizado em três páginas:
+
+**1. Visão Geral**
+
+* KPIs de receita, pedidos, clientes e ticket médio;
+* evolução mensal da receita;
+* evolução mensal dos pedidos;
+* receita por território;
+* receita por categoria.
+
+**2. Clientes e Produtos**
+
+* ranking dos principais clientes por receita;
+* comparação entre os 50 maiores clientes e os demais;
+* ranking dos principais produtos por receita.
+
+**3. Territórios**
+
+* ticket médio por território;
+* quantidade de pedidos por território;
+* receita por cliente por território.
+
+## Ferramentas utilizadas
+
+* **SQL Server / SSMS** — exploração, tratamento e análise dos dados.
+* **SQL** — consultas, agregações, relacionamentos, métricas e investigação dos dados.
+* **Power BI** — modelagem, criação de medidas em DAX e desenvolvimento do dashboard.
+* **DAX** — criação das métricas utilizadas na análise e nos visuais.
+* **GitHub** — documentação e versionamento do projeto.
+
+## Estrutura do projeto
+
+```text
+AdventureWorks2025-Analise-Comercial/
+│
+├── SQL/
+│   ├── 01_Visao_Geral.sql
+│   ├── 02_Evolucao_Temporal.sql
+│   ├── 03_Clientes.sql
+│   ├── 04_Produtos.sql
+│   └── 05_Territorios.sql
+│
+├── PowerBI/
+│
+├── Imagens/
+│
+└── README.md
+```
+
+A pasta `SQL` contém as consultas utilizadas para estruturar a análise. A pasta `PowerBI` contém o arquivo do dashboard, enquanto `Imagens` será utilizada para armazenar as visualizações apresentadas neste README.
+
+## Limitações da análise
+
+* A base AdventureWorks2025 é uma base de demonstração e não representa necessariamente uma operação comercial real.
+* O período de 2025 está incompleto, com dados disponíveis somente até **29/06/2025**. Por isso, os resultados de 2025 não foram tratados como equivalentes aos anos completos anteriores.
+* A análise utiliza `LineTotal` como medida de receita registrada na base. O projeto não realiza uma reconciliação com conceitos contábeis como receita líquida, impostos, descontos ou custos.
+* Os resultados apresentados são predominantemente descritivos. Padrões observados entre clientes, produtos e territórios não devem ser interpretados automaticamente como relações causais.
+* Algumas análises identificam padrões que poderiam ser aprofundados com informações adicionais, como margem, custos, descontos, características dos clientes e dados operacionais.
